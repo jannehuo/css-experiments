@@ -1,0 +1,14 @@
+.experiment {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  &.light {
+    background-color: $white;
+    color: $light-black;
+  }
+  .experiment-content-header {
+    text-transform: uppercase;
+  }
+}
