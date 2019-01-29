@@ -1,0 +1,8 @@
+$size: 200px;
+.blob {
+  background-color: $black;
+  width: $size;
+  height: $size;
+  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+  transition: border-radius 1s linear;
+}
